@@ -21,4 +21,25 @@
       fill: $color-primary;
     }
   }
+
+  &-sidebar {
+    display: flex;
+    padding: 8px 16px;
+
+    &:hover {
+      background-color: $gray-200;
+    }
+
+    svg {
+      fill: $gray-600;
+      width: 25px;
+      height: 25px;
+    }
+
+    p {
+      color: #000000;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+  }
 }

@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: $gray-50;
+  border-radius: 5px;
+  padding: 16px 0px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+
+  &__list {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  // &__item {
+
+  // }
+}
