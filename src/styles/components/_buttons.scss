@@ -3,4 +3,22 @@
   background: transparent;
   border: 0;
   cursor: pointer;
+
+  &-logo {
+    &:link,
+    &:visited {
+      font-weight: 700;
+      font-size: 24px;
+      color: $color-primary;
+      letter-spacing: 1.5px;
+    }
+  }
+
+  &-svg {
+    display: flex;
+
+    svg {
+      fill: $color-primary;
+    }
+  }
 }
