@@ -34,20 +34,20 @@ export default class Carousel extends React.Component {
     this.setState({ currentSlide: index });
   };
 
-  // componentDidMount() {
-  //   this.carouselIntervalId = setInterval(() => {
-  //     this.setState((prevState) => {
-  //       if (prevState.currentSlide >= prevState.slides.length - 1) {
-  //         return { currentSlide: 0 };
-  //       }
-  //       return { currentSlide: prevState.currentSlide + 1 };
-  //     });
-  //   }, 3000);
-  // }
+  componentDidMount() {
+    this.carouselIntervalId = setInterval(() => {
+      this.setState((prevState) => {
+        if (prevState.currentSlide >= prevState.slides.length - 1) {
+          return { currentSlide: 0 };
+        }
+        return { currentSlide: prevState.currentSlide + 1 };
+      });
+    }, 4000);
+  }
 
-  // componentWillUnmount() {
-  //   clearInterval(this.carouselIntervalId);
-  // }
+  componentWillUnmount() {
+    clearInterval(this.carouselIntervalId);
+  }
 
   // slideToRight = () => {
   //   const nextSlide = (this.state.currentSlide + 1) % this.state.slides.length;
@@ -62,17 +62,20 @@ export default class Carousel extends React.Component {
 
   render() {
     const { currentSlide, slides } = this.state;
-    const nextSlide = (currentSlide + 1) % slides.length;
-    let prevSlide = (currentSlide - 1) % slides.length;
-    prevSlide = prevSlide === -1 ? slides.length - 1 : prevSlide;
-
-    console.log(prevSlide, currentSlide, nextSlide);
+    // const nextSlide = (currentSlide + 1) % slides.length;
+    // let prevSlide = (currentSlide - 1) % slides.length;
+    // prevSlide = prevSlide === -1 ? slides.length - 1 : prevSlide;
 
     return (
       <div className="carousel">
         <div className="carousel__slides">
-          {slides.map((slide) => (
-            <div key={slide.slideId} className="carousel__slide">
+          {slides.map((slide, index) => (
+            <div
+              key={slide.slideId}
+              className={`carousel__slide${
+                currentSlide === index ? ' currentSlide' : ''
+              }`}
+            >
               Slide {slide.src}
             </div>
           ))}
