@@ -6,13 +6,14 @@
 
   &__section {
     flex: 1;
-    margin-left: 12px;
+    margin-left: 35px;
+    padding-bottom: 100px;
   }
 
   &__header {
     font-weight: 400;
     font-size: 36px;
     color: $color-primary;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
   }
 }

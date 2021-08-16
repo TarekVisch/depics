@@ -1,6 +1,8 @@
 .products {
   &__container {
-    margin-bottom: 16px;
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
   }
 
   &__category {
