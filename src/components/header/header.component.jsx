@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import * as ROUTES from '../../constants/routes';
 import { ReactComponent as Cart } from '../../icons/cart-empty.svg';
 
 export default class Header extends React.Component {
@@ -11,14 +13,14 @@ export default class Header extends React.Component {
     return (
       <header className="header">
         <div className="header__logo">
-          <a href="/" className="btn btn-logo">
+          <Link to={ROUTES.HOME} className="btn btn-logo">
             De.
-          </a>
+          </Link>
         </div>
         <div className="header__cart">
-          <a href="/cart" className="btn btn-svg">
+          <Link to={ROUTES.CART} className="btn btn-svg">
             <Cart />
-          </a>
+          </Link>
         </div>
       </header>
     );

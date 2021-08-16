@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import * as ROUTES from '../../constants/routes';
 import { ReactComponent as WomenFashionIcon } from '../../icons/fashion-women.svg';
 import { ReactComponent as MenFashionIcon } from '../../icons/fashion-men.svg';
 
@@ -15,7 +16,7 @@ export default class Sidebar extends React.Component {
         <ul className="sidebar__list">
           <li className="sidebar__item">
             <NavLink
-              to="/women"
+              to={ROUTES.WOMEN}
               className="btn btn-sidebar"
               activeClassName="currentSidebarLink"
             >
@@ -25,7 +26,7 @@ export default class Sidebar extends React.Component {
           </li>
           <li className="sidebar__item">
             <NavLink
-              to="/men"
+              to={ROUTES.MEN}
               className="btn btn-sidebar"
               activeClassName="currentSidebarLink"
             >
