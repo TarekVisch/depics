@@ -30,6 +30,10 @@
       background-color: $gray-200;
     }
 
+    &.currentSidebarLink {
+      background-color: $gray-200;
+    }
+
     svg {
       fill: $gray-600;
       width: 25px;

@@ -1,8 +1,7 @@
 import React from 'react';
-import Carousel from '../components/carousel/carousel.component';
 import Sidebar from '../components/sidebar/sidebar.component';
 
-export default class Browse extends React.Component {
+export default class MenPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -10,11 +9,11 @@ export default class Browse extends React.Component {
 
   render() {
     return (
-      <main className="browse">
+      <main className="men">
         <Sidebar />
 
-        <section className="browse__section">
-          <Carousel />
+        <section className="men__section">
+          <h1 className="men__header">Men's Fashion</h1>
         </section>
       </main>
     );

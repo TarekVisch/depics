@@ -6,7 +6,9 @@ import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 
 // Add lazy loading later
-import Browse from './pages/browse';
+import BrowsePage from './pages/browse-page';
+import WomenPage from './pages/women-page';
+import MenPage from './pages/men-page';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,17 +21,17 @@ export default class App extends React.Component {
       <div className="app">
         <Header />
         <Switch>
-          <Route path="/women">
-            <p>Women's section</p>
+          <Route path={ROUTES.WOMEN}>
+            <WomenPage />
           </Route>
-          <Route path="/men">
-            <p>Men's section</p>
+          <Route path={ROUTES.MEN}>
+            <MenPage />
           </Route>
-          <Route path="/cart">
+          <Route path={ROUTES.CART}>
             <p>Cart Page</p>
           </Route>
-          <Route path="/">
-            <Browse />
+          <Route path={ROUTES.HOME}>
+            <BrowsePage />
           </Route>
         </Switch>
         <Footer />

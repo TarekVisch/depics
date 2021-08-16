@@ -1,0 +1,17 @@
+.men {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 32px;
+
+  &__section {
+    flex: 1;
+    margin-left: 12px;
+  }
+
+  &__header {
+    font-weight: 400;
+    font-size: 36px;
+    color: $color-primary;
+  }
+}
