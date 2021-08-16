@@ -1,65 +1,68 @@
 [
   {
-    "id": "83ba2d24-9599-4d6c-afca-043d291250a8",
-    "category": "hoodies",
-    "src": "images/fashion/women/hoodies/hoodie-4.webp",
-    "title": "Women Couple Hoodies Sweatshirt Fleece Dream Merch Hoodie Sweatshirts Tracksuit Sports Sweatshirt Winter Casual Loose Pullover",
-    "price": "67.63"
+    "id": "2cca96f3-3ba0-4e89-a13d-3fa3dd1eee08",
+    "category": "Dresses",
+    "products": [
+      {
+        "id": "5c3535c6-457e-4274-9779-6536b2209beb",
+        "src": "images/fashion/women/dresses/dress-1.webp",
+        "title": "Brand New Fashion Women Sexy Ladies O-Neck Black Dress Bandage Bodycon Long Sleeve Party Cocktail Short Mini Dress",
+        "price": "37.09"
+      },
+      {
+        "id": "2a824856-2332-409c-bc53-355a871e1cf9",
+        "src": "images/fashion/women/dresses/dress-4.webp",
+        "title": "Summer Short Sleeve Embroidery Lace Dress Women Pattern Printed Vintage Party Dresses Lady Sexy V Neck Button Pockets Midi Dress",
+        "price": "149.53"
+      },
+      {
+        "id": "af4d7b67-7688-4230-97ec-d3cd3f2ed847",
+        "src": "images/fashion/women/dresses/dress-2.webp",
+        "title": "Summer Women Dress Sexy V-neck Floral Print Boho Dress Women's Clothing Casual Vintage Beach Dresses vestidos mujer verano 2021",
+        "price": "62.24"
+      },
+      {
+        "id": "d254774d-21c9-44b2-9481-e21df550cd59",
+        "src": "images/fashion/women/dresses/dress-3.webp",
+        "title": "Casual Boho Beach Dresses Womens O-Neck Party Summer Dress Short Sleeve Loose Mini Dress",
+        "price": "44.82"
+      }
+    ]
   },
   {
-    "id": "5c3535c6-457e-4274-9779-6536b2209beb",
-    "category": "hoodies",
-    "src": "images/fashion/women/dresses/dress-1.webp",
-    "title": "Brand New Fashion Women Sexy Ladies O-Neck Black Dress Bandage Bodycon Long Sleeve Party Cocktail Short Mini Dress",
-    "price": "37.09"
-  },
-  {
-    "id": "af4d7b67-7688-4230-97ec-d3cd3f2ed847",
-    "category": "hoodies",
-    "src": "images/fashion/women/dresses/dress-2.webp",
-    "title": "Summer Women Dress Sexy V-neck Floral Print Boho Dress Women's Clothing Casual Vintage Beach Dresses vestidos mujer verano 2021",
-    "price": "62.24"
-  },
-  {
-    "id": "6452a63d-84d0-4453-ab71-144c1ac88699",
-    "category": "hoodies",
-    "src": "images/fashion/women/hoodies/hoodie-3.webp",
-    "title": "Cute Cat Hooded Sweatshirt Long-sleeved",
-    "price": "101.31"
-  },
-  {
-    "id": "d254774d-21c9-44b2-9481-e21df550cd59",
-    "category": "hoodies",
-    "src": "images/fashion/women/dresses/dress-3.webp",
-    "title": "Casual Boho Beach Dresses Womens O-Neck Party Summer Dress Short Sleeve Loose Mini Dress",
-    "price": "44.82"
-  },
-  {
-    "id": "c3ea8dfc-8da3-4ee9-814d-c1119d971aad",
-    "category": "hoodies",
-    "src": "images/fashion/women/hoodies/hoodie-1.webp",
-    "title": "Frog Hoodie Vintage Harajuku Women's Winter Hoodies Kawaii Cute Casual Streetwear Aesthetic Oversize Top Woman Loose Sweatshirts",
-    "price": "68.26"
-  },
-  {
-    "id": "0f51af9d-e05b-4cc3-a579-821299268e29",
-    "category": "hoodies",
-    "src": "images/fashion/women/hoodies/hoodie-2.webp",
-    "title": "Streetwear Hoodies Women Sweatshirt Autumn Long Sleeve Hoodies Harajuku Hoodie Cute Cat Print Sweatshirt Women Sudadera Mujer",
-    "price": "46.52"
-  },
-  {
-    "id": "2a824856-2332-409c-bc53-355a871e1cf9",
-    "category": "hoodies",
-    "src": "images/fashion/women/dresses/dress-4.webp",
-    "title": "Summer Short Sleeve Embroidery Lace Dress Women Pattern Printed Vintage Party Dresses Lady Sexy V Neck Button Pockets Midi Dress",
-    "price": "149.53"
-  },
-  {
-    "id": "f10aac3e-5388-48f8-a731-33e51a32efa1",
-    "category": "hoodies",
-    "src": "images/fashion/women/hoodies/hoodie-5.webp",
-    "title": "HOUZHOU Kawaii Cute Oversize Hoodie Harajuku Anime Pullover Korean Fashion Streetwear Women Aesthetic Bear Long Sleeve Coat",
-    "price": "190.85"
+    "id": "5cb7db96-5e88-44fd-aba3-0a67dabf7559",
+    "category": "Hoodies & Sweatshirts",
+    "products": [
+      {
+        "id": "c3ea8dfc-8da3-4ee9-814d-c1119d971aad",
+        "src": "images/fashion/women/hoodies/hoodie-1.webp",
+        "title": "Frog Hoodie Vintage Harajuku Women's Winter Hoodies Kawaii Cute Casual Streetwear Aesthetic Oversize Top Woman Loose Sweatshirts",
+        "price": "68.26"
+      },
+      {
+        "id": "83ba2d24-9599-4d6c-afca-043d291250a8",
+        "src": "images/fashion/women/hoodies/hoodie-4.webp",
+        "title": "Women Couple Hoodies Sweatshirt Fleece Dream Merch Hoodie Sweatshirts Tracksuit Sports Sweatshirt Winter Casual Loose Pullover",
+        "price": "67.63"
+      },
+      {
+        "id": "6452a63d-84d0-4453-ab71-144c1ac88699",
+        "src": "images/fashion/women/hoodies/hoodie-3.webp",
+        "title": "Cute Cat Hooded Sweatshirt Long-sleeved",
+        "price": "101.31"
+      },
+      {
+        "id": "0f51af9d-e05b-4cc3-a579-821299268e29",
+        "src": "images/fashion/women/hoodies/hoodie-2.webp",
+        "title": "Streetwear Hoodies Women Sweatshirt Autumn Long Sleeve Hoodies Harajuku Hoodie Cute Cat Print Sweatshirt Women Sudadera Mujer",
+        "price": "46.52"
+      },
+      {
+        "id": "f10aac3e-5388-48f8-a731-33e51a32efa1",
+        "src": "images/fashion/women/hoodies/hoodie-5.webp",
+        "title": "HOUZHOU Kawaii Cute Oversize Hoodie Harajuku Anime Pullover Korean Fashion Streetwear Women Aesthetic Bear Long Sleeve Coat",
+        "price": "190.85"
+      }
+    ]
   }
 ]

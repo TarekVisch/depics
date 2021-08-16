@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: $gray-50;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &__img {
+    display: flex;
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  }
+
+  &__title {
+    overflow: hidden;
+    padding: 0px 8px;
+    margin: 8px 0px;
+
+    p {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+
+  &__price {
+    padding: 0px 8px;
+    margin-bottom: 8px;
+
+    p {
+      font-weight: 600;
+    }
+  }
+}

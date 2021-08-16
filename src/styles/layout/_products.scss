@@ -1,0 +1,22 @@
+.products {
+  &__container {
+    margin-bottom: 16px;
+  }
+
+  &__category {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    color: $gray-800;
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+
+  // &__col {
+  // }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import Sidebar from '../components/sidebar/sidebar.component';
+import ProductTable from '../components/product-table/product-table.component';
+import womensData from '../fixtures/women.json';
 
 export default class WomenPage extends React.Component {
   constructor(props) {
@@ -14,6 +16,7 @@ export default class WomenPage extends React.Component {
 
         <section className="women__section">
           <h1 className="women__header">Women's Fashion</h1>
+          <ProductTable data={womensData} />
         </section>
       </main>
     );
