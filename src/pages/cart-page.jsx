@@ -1,4 +1,5 @@
 import React from 'react';
+import CartItem from '../components/cart-item/cart-item.component';
 import { CartContext } from '../context/cartContext';
 
 export default class CartPage extends React.Component {
@@ -14,7 +15,7 @@ export default class CartPage extends React.Component {
           {(context) => {
             if (context.cart.length > 0) {
               return context.cart.map((item) => (
-                <div className="cart__item">{item.title}</div>
+                <CartItem key={item.id} item={item} />
               ));
             }
             return <p className="cart__empty">Cart is empty</p>;
