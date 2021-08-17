@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import * as ROUTES from './constants/routes';
+import { CartProvider } from './context/cartContext';
 
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
@@ -10,14 +11,9 @@ import BrowsePage from './pages/browse-page';
 import WomenPage from './pages/women-page';
 import MenPage from './pages/men-page';
 
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
+export default function App() {
+  return (
+    <CartProvider>
       <div className="app">
         <Header />
         <Switch>
@@ -36,6 +32,6 @@ export default class App extends React.Component {
         </Switch>
         <Footer />
       </div>
-    );
-  }
+    </CartProvider>
+  );
 }
