@@ -10,6 +10,7 @@ import Footer from './components/footer/footer.component';
 import BrowsePage from './pages/browse-page';
 import WomenPage from './pages/women-page';
 import MenPage from './pages/men-page';
+import CartPage from './pages/cart-page';
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
             <MenPage />
           </Route>
           <Route path={ROUTES.CART}>
-            <p>Cart Page</p>
+            <CartPage />
           </Route>
           <Route path={ROUTES.HOME}>
             <BrowsePage />
