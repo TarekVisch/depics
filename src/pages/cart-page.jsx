@@ -14,11 +14,20 @@ export default class CartPage extends React.Component {
         <CartContext.Consumer>
           {(context) => {
             if (context.cart.length > 0) {
-              return context.cart.map((item) => (
-                <CartItem key={item.id} item={item} />
-              ));
+              let total = 0;
+              for (let i = 0; i < context.cart.length; i++) {
+                total += parseFloat(context.cart[i].price);
+              }
+              return (
+                <>
+                  {context.cart.map((item) => (
+                    <CartItem key={item.id} item={item} />
+                  ))}
+                  <div className="cart__total">Total: $ {total.toFixed(2)}</div>
+                </>
+              );
             }
-            return <p className="cart__empty">Cart is empty</p>;
+            return <p className="cart__empty">Your Shopping Cart is empty</p>;
           }}
         </CartContext.Consumer>
       </div>

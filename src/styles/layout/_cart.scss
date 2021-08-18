@@ -1,23 +1,54 @@
 .cart {
   flex: 1;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
   padding: 0 32px;
 
   &__item {
     display: flex;
+    padding: 16px 0px;
+    border-top: 2px solid $gray-300;
 
     &__image {
+      img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
     }
 
     &__info {
+      flex: 1;
+      padding: 0px 16px;
+
       &--title {
+        margin-bottom: 16px;
+        color: $gray-700;
       }
+
       &--price {
+        font-weight: 600;
+        font-size: 18px;
       }
     }
 
     &__options {
+      display: flex;
+      align-items: center;
+
+      svg {
+        fill: $color-primary;
+      }
     }
+  }
+
+  &__total {
+    padding: 16px 0px;
+    border-top: 1px solid $gray-300;
+    text-align: right;
+
+    font-weight: 600;
+    font-size: 24px;
   }
 }
