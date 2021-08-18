@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as DeleteIcon } from '../../icons/delete.svg';
 
-export default function CartItem({ item }) {
+export default function CartItem({ item, removeItem }) {
   const total = 0;
   return (
     <div className="cart__item">
@@ -13,7 +13,7 @@ export default function CartItem({ item }) {
         <p className="cart__item__info--price">$ {item.price}</p>
       </div>
       <div className="cart__item__options">
-        <button className="btn btn-options">
+        <button className="btn btn-options" onClick={() => removeItem(item.id)}>
           <DeleteIcon />
         </button>
       </div>

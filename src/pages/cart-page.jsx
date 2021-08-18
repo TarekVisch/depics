@@ -21,7 +21,11 @@ export default class CartPage extends React.Component {
               return (
                 <>
                   {context.cart.map((item) => (
-                    <CartItem key={item.id} item={item} />
+                    <CartItem
+                      key={item.id}
+                      item={item}
+                      removeItem={context.removeFromCart}
+                    />
                   ))}
                   <div className="cart__total">Total: $ {total.toFixed(2)}</div>
                 </>
